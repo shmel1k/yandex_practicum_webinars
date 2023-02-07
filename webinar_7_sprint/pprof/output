@@ -1,0 +1,98 @@
+PeriodType: cpu nanoseconds
+Period: 10000000
+Time: 2023-02-07 17:13:07.419919566 +0300 MSK
+Duration: 10.1
+Samples:
+samples/count cpu/nanoseconds
+        593 5930000000: 1 2 3 4 5 6 7 
+         11  110000000: 8 4 5 6 7 
+          8   80000000: 9 3 4 5 6 7 
+         12  120000000: 10 3 4 5 6 7 
+          4   40000000: 11 3 4 5 6 7 
+          8   80000000: 12 
+          4   40000000: 13 
+          2   20000000: 14 
+         21  210000000: 15 2 3 4 5 6 7 
+          8   80000000: 16 
+          1   10000000: 17 
+          6   60000000: 18 
+          9   90000000: 19 
+         15  150000000: 20 21 3 4 5 6 7 
+         11  110000000: 22 4 5 6 7 
+          3   30000000: 23 
+          2   20000000: 24 
+          1   10000000: 25 3 4 5 6 7 
+          9   90000000: 26 2 3 4 5 6 7 
+          1   10000000: 27 
+         13  130000000: 28 
+         13  130000000: 29 21 3 4 5 6 7 
+          4   40000000: 30 3 4 5 6 7 
+         13  130000000: 31 3 4 5 6 7 
+          2   20000000: 32 3 4 5 6 7 
+          8   80000000: 33 21 3 4 5 6 7 
+          1   10000000: 34 35 36 37 38 39 40 41 
+          1   10000000: 42 21 3 4 5 6 7 
+          1   10000000: 43 
+          1   10000000: 44 
+          1   10000000: 45 21 3 4 5 6 7 
+          2   20000000: 46 4 5 6 7 
+          1   10000000: 47 21 3 4 5 6 7 
+          3   30000000: 48 21 3 4 5 6 7 
+          1   10000000: 49 21 3 4 5 6 7 
+          1   10000000: 50 21 3 4 5 6 7 
+          1   10000000: 51 21 3 4 5 6 7 
+Locations
+     1: 0x4576d3 M=1 runtime.nanotime /usr/local/go/src/runtime/time_nofake.go:19 s=0
+     2: 0x47e9f3 M=1 time.Since /usr/local/go/src/time/time.go:878 s=0
+     3: 0x662e7d M=1 main.main.func1 /home/shmel1k/myprojects/yandex_practicum/webinars/yandex_practicum_webinars/webinar_7_sprint/pprof/pprof.go:13 s=0
+     4: 0x61050e M=1 net/http.HandlerFunc.ServeHTTP /usr/local/go/src/net/http/server.go:2084 s=0
+     5: 0x611ea8 M=1 net/http.(*ServeMux).ServeHTTP /usr/local/go/src/net/http/server.go:2462 s=0
+     6: 0x6131ba M=1 net/http.serverHandler.ServeHTTP /usr/local/go/src/net/http/server.go:2916 s=0
+     7: 0x60f236 M=1 net/http.(*conn).serve /usr/local/go/src/net/http/server.go:1966 s=0
+     8: 0x662e79 M=1 main.main.func1 /home/shmel1k/myprojects/yandex_practicum/webinars/yandex_practicum_webinars/webinar_7_sprint/pprof/pprof.go:13 s=0
+     9: 0x47e9e3 M=1 time.Since /usr/local/go/src/time/time.go:874 s=0
+    10: 0x47e9fb M=1 time.Since /usr/local/go/src/time/time.go:878 s=0
+    11: 0x47ea29 M=1 time.Since /usr/local/go/src/time/time.go:882 s=0
+    12: 0x469d8f M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:266 s=0
+    13: 0x469d97 M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:270 s=0
+    14: 0x469de5 M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:296 s=0
+    15: 0x4576c0 M=1 runtime.nanotime /usr/local/go/src/runtime/time_nofake.go:18 s=0
+    16: 0x469d40 M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:237 s=0
+    17: 0x469d5c M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:253 s=0
+    18: 0x469da4 M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:274 s=0
+    19: 0x469dcb M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:289 s=0
+    20: 0x47e7c0 M=1 time.Time.Sub /usr/local/go/src/time/time.go:847 s=0
+    21: 0x47ea33 M=1 time.Since /usr/local/go/src/time/time.go:882 s=0
+    22: 0x662e6a M=1 main.main.func1 /home/shmel1k/myprojects/yandex_practicum/webinars/yandex_practicum_webinars/webinar_7_sprint/pprof/pprof.go:13 s=0
+    23: 0x469da0 M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:273 s=0
+    24: 0x469d9b M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:272 s=0
+    25: 0x47ea39 M=1 time.Since /usr/local/go/src/time/time.go:882 s=0
+    26: 0x4576ce M=1 runtime.nanotime /usr/local/go/src/runtime/time_nofake.go:19 s=0
+    27: 0x469dbc M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:281 s=0
+    28: 0x469d63 M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:254 s=0
+    29: 0x47e860 M=1 time.Time.Sub /usr/local/go/src/time/time.go:858 s=0
+    30: 0x47ea24 M=1 time.Since /usr/local/go/src/time/time.go:882 s=0
+    31: 0x47e9c0 M=1 time.Since /usr/local/go/src/time/time.go:874 s=0
+    32: 0x47e9f4 M=1 time.Since /usr/local/go/src/time/time.go:878 s=0
+    33: 0x47e80b M=1 time.Time.Sub /usr/local/go/src/time/time.go:848 s=0
+    34: 0x469b15 M=1 runtime.write1 /usr/local/go/src/runtime/sys_linux_amd64.s:105 s=0
+    35: 0x45773a M=1 runtime.write /usr/local/go/src/runtime/time_nofake.go:31 s=0
+    36: 0x432ad7 M=1 runtime.netpollBreak /usr/local/go/src/runtime/netpoll_epoll.go:85 s=0
+    37: 0x43f173 M=1 runtime.wakeNetPoller /usr/local/go/src/runtime/proc.go:3012 s=0
+    38: 0x455f87 M=1 runtime.modtimer /usr/local/go/src/runtime/time.go:499 s=0
+    39: 0x455196 M=1 runtime.resettimer /usr/local/go/src/runtime/time.go:540 s=0
+             runtime.resetForSleep /usr/local/go/src/runtime/time.go:203 s=0
+    40: 0x43fc26 M=1 runtime.park_m /usr/local/go/src/runtime/proc.go:3325 s=0
+    41: 0x4660a2 M=1 runtime.mcall /usr/local/go/src/runtime/asm_amd64.s:425 s=0
+    42: 0x47e7fb M=1 time.Time.Sub /usr/local/go/src/time/time.go:848 s=0
+    43: 0x469d7c M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:260 s=0
+    44: 0x469dee M=1 runtime.nanotime1 /usr/local/go/src/runtime/sys_linux_amd64.s:296 s=0
+    45: 0x47e7ca M=1 time.Time.Sub /usr/local/go/src/time/time.go:847 s=0
+    46: 0x662e88 M=1 main.main.func1 /home/shmel1k/myprojects/yandex_practicum/webinars/yandex_practicum_webinars/webinar_7_sprint/pprof/pprof.go:13 s=0
+    47: 0x47e840 M=1 time.Time.Sub /usr/local/go/src/time/time.go:855 s=0
+    48: 0x47e7e7 M=1 time.Time.Sub /usr/local/go/src/time/time.go:847 s=0
+    49: 0x47e85b M=1 time.Time.Sub /usr/local/go/src/time/time.go:858 s=0
+    50: 0x47e864 M=1 time.Time.Sub /usr/local/go/src/time/time.go:858 s=0
+    51: 0x47e7ec M=1 time.Time.Sub /usr/local/go/src/time/time.go:847 s=0
+Mappings
+1: 0x400000/0x664000/0x0 /tmp/go-build4199629305/b001/exe/pprof  [FN]
